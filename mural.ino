@@ -78,7 +78,7 @@ void setPins(int mode){
 void blink1(){
   digitalWrite(pin1,1);
   digitalWrite(pin2,1);
-  delay(500);
+  delay(400);
   digitalWrite(pin1,0);
   digitalWrite(pin2,0);
   delay(500);
